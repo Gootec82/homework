@@ -11,14 +11,14 @@
         rel="stylesheet" />
     <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
     <link rel="stylesheet" href="style.css" />
-    <title>My Weather App</title>
+    <title>Weather App</title>
 </head>
 
 <body>
     <div class="weather-app">
         <header>
             <form id="search-form">
-                <input type="search" placeholder="Type in city..." required class="search-input" id="search-input" />
+                <input type="search" placeholder="Enter a city.." required class="search-input" id="search-input" />
                 <input type="submit" value="Search" class="search-button" />
             </form>
         </header>
@@ -27,26 +27,26 @@
                 <div>
                     <h1 class="current-city" id="current-city">Paris</h1>
                     <p class="current-details">
-                        <span id="current-date"></span>Moderate rain <br />
+                        <span id="current-date"></span>, moderate rain <br />
                         Humidity: <strong>87%</strong>, Wind: <strong>7.2km/h</strong>
                     </p>
                 </div>
                 <div class="current-temperature">
-                    <span class="current-temperature-icon">🌗</span><span class="current-temperature-value"
+                    <span class="current-temperature-icon">✴</span><span class="current-temperature-value"
                         id="current-temperature">24</span><span class="current-temperature-unit">°C</span>
                 </div>
             </div>
         </main>
         <footer>
             <p>
-                This project was coded by
+                Coded by me
                 <a href="https://github.com/gootec82" target="_blank">DevSpark</a> and
-                is <a href="https://github.com/Gootec82/homework.git" target="_blank">Open code on GitHub</a> and
+                is <a href="https://github.com/Gootec82/homework.git" target="_blank"> Code on GitHub</a> and
                 <a href="https://myhomeweatherapp.netlify.app/" target="_blank">hosted on Netlify</a>
             </p>
         </footer>
     </div>
 </body>
-<script src="index.html"></script>
+<script src="app.js"></script>
 
 </html>
